@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#1153a8">
+  <meta name="description" content="Sgomberi, piccoli traslochi e trasporto oggetti a Genova e dintorni. Richiedi informazioni e un preventivo senza impegno.">
+  <title>Sgomberi & Piccoli Traslochi | Genova e dintorni</title>
+  <style>
+    :root{--blue:#1153a8;--bright:#2378da;--navy:#132c4b;--ink:#1d2c43;--muted:#62738a;--pale:#eef5ff;--border:#dce7f4;--white:#fff;--shadow:0 15px 35px rgba(13,55,112,.10)}
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth;scroll-padding-top:85px}
+    body{margin:0;font-family:ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;color:var(--ink);background:#fff;line-height:1.6}
+    a{color:inherit}button,input,textarea,select{font:inherit}button{cursor:pointer}
+    .container{width:min(1120px,calc(100% - 42px));margin-inline:auto}
+    .skip{position:absolute;left:-9999px}.skip:focus{left:12px;top:10px;background:#fff;padding:10px;z-index:50}
+    .site-header{position:sticky;top:0;z-index:10;background:#ffffffed;backdrop-filter:blur(14px);border-bottom:1px solid #e8eef5}
+    .header-inner{min-height:76px;display:flex;align-items:center;justify-content:space-between;gap:24px}
+    .brand{display:flex;align-items:center;gap:12px;text-decoration:none;color:var(--navy);font-size:14px;font-weight:900;line-height:1.2;letter-spacing:.025em}
+    .brand-symbol{height:46px;width:46px;flex:none;display:grid;place-items:center;border-radius:13px;background:var(--blue);color:white}
+    .brand-symbol svg{width:30px;height:30px}
+    nav{display:flex;align-items:center;gap:26px;font-size:14px;font-weight:700}nav a{text-decoration:none}nav a:hover{color:var(--blue)}
+    .button{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:47px;padding:12px 21px;border-radius:12px;font-weight:800;font-size:15px;text-decoration:none;border:1px solid transparent;transition:transform .18s,box-shadow .18s}
+    .button:hover{transform:translateY(-2px);box-shadow:0 8px 22px #0a357133}.button-white{color:var(--blue);background:#fff}.button-blue{background:var(--blue);color:white}.button-outline{border-color:#ffffff7a;color:white;background:#ffffff14}
+    .hero{position:relative;overflow:hidden;color:white;background:linear-gradient(123deg,#103b7d 0%,#155bb1 65%,#2584e2 100%)}
+    .hero:before,.hero:after{content:"";position:absolute;border:1px solid #ffffff2e;border-radius:50%;pointer-events:none}.hero:before{width:620px;height:620px;right:-170px;top:-260px}.hero:after{width:400px;height:400px;right:90px;bottom:-290px}
+    .hero-grid{position:relative;display:grid;grid-template-columns:1.15fr .85fr;align-items:center;gap:60px;padding:112px 0 116px}
+    .eyebrow{font-size:12px;letter-spacing:.15em;text-transform:uppercase;font-weight:900;color:#b6d9ff}.hero h1{font-size:clamp(42px,5.5vw,72px);letter-spacing:-.045em;line-height:1.08;margin:20px 0 24px;font-weight:900}.hero p{color:#e2eeff;font-size:18px;line-height:1.75;max-width:560px;margin:0 0 30px}.hero-actions{display:flex;gap:13px;flex-wrap:wrap}
+    .hero-art{position:relative;max-width:400px;width:100%;margin-inline:auto}.hero-art .art-back{border:1px solid #ffffff42;background:#ffffff1b;border-radius:28px;padding:34px;box-shadow:0 20px 40px #06264b20}.hero-art svg{width:100%;height:auto;display:block;filter:drop-shadow(0 13px 10px #07294b30)}.hero-caption{position:absolute;bottom:-23px;left:-20px;border-radius:13px;background:white;color:var(--navy);padding:13px 20px;font-size:13px;font-weight:900;box-shadow:var(--shadow)}
+    .stats{display:flex;gap:20px;flex-wrap:wrap;margin-top:40px;font-size:13px;font-weight:700;color:#ecf4ff}.stats span{display:inline-flex;gap:8px;align-items:center}.stats b{color:#fff;font-size:18px}
+    section{padding:90px 0}.section-heading{max-width:640px;margin-bottom:34px}.kicker{color:var(--blue);text-transform:uppercase;letter-spacing:.13em;font-size:12px;font-weight:900}.section-heading h2{font-size:clamp(30px,4vw,43px);line-height:1.18;letter-spacing:-.035em;margin:11px 0}.section-heading p{color:var(--muted);margin:0;font-size:16px}
+    .cards{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.card{background:white;border:1px solid var(--border);border-radius:19px;padding:30px;box-shadow:0 5px 20px #193b6910}.card-icon{width:56px;height:56px;display:grid;place-items:center;border-radius:15px;background:var(--pale);margin-bottom:25px;font-size:27px}.card h3{font-size:21px;line-height:1.3;margin:0 0 10px}.card p{margin:0;color:var(--muted);font-size:15px}
+    .soft{background:#f5f9ff}.steps{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}.step{position:relative;padding:10px 0}.num{width:47px;height:47px;border-radius:14px;display:grid;place-items:center;background:var(--blue);color:#fff;font-weight:900;margin-bottom:16px}.step h3{font-size:20px;margin:0 0 8px}.step p{color:var(--muted);margin:0}.step:not(:last-child):after{content:"";position:absolute;top:33px;left:75px;right:12px;border-top:2px dashed #a5c5e9}
+    .local-band{padding:30px 35px;border-radius:20px;background:linear-gradient(100deg,#e7f1ff,#f6faff);display:flex;align-items:center;justify-content:space-between;gap:25px;margin-top:45px}.local-band strong{display:block;font-size:20px}.local-band p{margin:4px 0 0;color:var(--muted)}
+    .quote-layout{display:grid;grid-template-columns:.78fr 1.22fr;gap:55px;align-items:start}.quote-aside p{color:var(--muted)}.tip{margin-top:24px;padding:18px 20px;border-left:4px solid var(--bright);background:var(--pale);border-radius:0 12px 12px 0;color:#355579;font-size:14px}.form-card{border:1px solid var(--border);box-shadow:var(--shadow);border-radius:23px;padding:34px;background:white}.form-card h3{margin:0 0 7px;font-size:22px}.form-intro{color:var(--muted);font-size:14px;margin:0 0 26px}.fields{display:grid;grid-template-columns:1fr 1fr;gap:16px}.field{display:flex;flex-direction:column;gap:7px;font-size:13px;font-weight:800}.field.full{grid-column:1/-1}.field input,.field select,.field textarea{width:100%;border:1px solid #cbd8e8;background:#fff;color:var(--ink);border-radius:10px;padding:12px 13px;outline:none;min-height:47px;font-weight:400}.field textarea{min-height:120px;resize:vertical}.field input:focus,.field select:focus,.field textarea:focus{border-color:var(--bright);box-shadow:0 0 0 3px #2378da1f}.form-help{font-size:12px;color:var(--muted);margin:16px 0 22px}.actions{display:flex;gap:12px;flex-wrap:wrap;align-items:center}.button:disabled{opacity:.55;cursor:not-allowed}.preview{display:none;margin-top:23px;padding:17px;border-radius:12px;background:#eff5ff;border:1px solid #cbdff8}.preview.visible{display:block}.preview strong{display:block;margin-bottom:9px}.preview pre{white-space:pre-wrap;word-break:break-word;font:13px/1.65 ui-monospace,SFMono-Regular,Consolas,monospace;margin:0}.feedback{font-size:13px;min-height:20px;color:var(--blue);font-weight:700;margin-top:10px}
+    .footer{background:#102640;color:#fff;padding:40px 0}.footer-line{display:flex;align-items:center;justify-content:space-between;gap:20px;flex-wrap:wrap}.footer p,.footer small{color:#c3d1e0}.footer a{color:white}
+    @media(max-width:890px){.hero-grid{grid-template-columns:1fr;gap:34px;padding:75px 0 83px}.hero-art{max-width:300px}.cards{grid-template-columns:1fr 1fr}.quote-layout{grid-template-columns:1fr;gap:26px}}
+    @media(max-width:620px){.container{width:min(100% - 32px,1120px)}.header-inner{padding:12px 0;align-items:flex-start;flex-direction:column;gap:12px}.brand{font-size:13px}.brand-symbol{height:39px;width:39px}nav{width:100%;gap:17px;overflow:auto;white-space:nowrap;font-size:13px}nav .header-cta{display:none}.hero-grid{padding:68px 0 75px}.hero h1{font-size:42px}.hero p{font-size:16px}.hero-art{max-width:230px}.hero-caption{left:-5px}section{padding:63px 0}.cards,.steps,.fields{grid-template-columns:1fr}.step:not(:last-child):after{display:none}.local-band{flex-direction:column;align-items:flex-start;padding:24px}.form-card{padding:22px}.footer-line{align-items:flex-start;flex-direction:column}}
+    @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.button{transition:none}}
+  </style>
+</head>
+<body>
+<a class="skip" href="#contenuto">Vai al contenuto</a>
+<header class="site-header"><div class="container header-inner">
+  <a class="brand" href="#inizio" aria-label="Sgomberi e Piccoli Traslochi, torna all'inizio"><span class="brand-symbol" aria-hidden="true"><svg viewBox="0 0 100 100" fill="none" stroke="currentColor" stroke-linejoin="round" stroke-width="6"><path d="M12 39h47v35H12zM59 49h18l11 16v9H59zM21 39V22h24v17M21 29h24M32 22v17"/><circle cx="27" cy="75" r="10" fill="#1153a8"/><circle cx="73" cy="75" r="10" fill="#1153a8"/></svg></span><span>SGOMBERI &<br>PICCOLI TRASLOCHI</span></a>
+  <nav aria-label="Navigazione principale"><a href="#servizi">Servizi</a><a href="#come-funziona">Come funziona</a><a href="#zona">Zona</a><a href="#preventivo" class="button button-blue header-cta">Preventivo</a></nav>
+</div></header>
+<main id="contenuto">
+  <div class="hero" id="inizio"><div class="container hero-grid"><div>
+    <div class="eyebrow">Genova e dintorni • Piccoli trasporti</div>
+    <h1>Piccoli traslochi.<br>Grandi soluzioni.</h1>
+    <p>Devi spostare scatole, piccoli mobili o liberare uno spazio? Raccontaci cosa ti serve e troviamo insieme una soluzione pratica.</p>
+    <div class="hero-actions"><a href="#preventivo" class="button button-white">Richiedi un preventivo <span aria-hidden="true">↗</span></a><a href="#servizi" class="button button-outline">Scopri i servizi</a></div>
+    <div class="stats"><span><b>✓</b> Richieste senza impegno</span><span><b>✓</b> Genova e dintorni</span></div>
+  </div><div class="hero-art" aria-hidden="true"><div class="art-back">
+  <svg viewBox="0 0 430 340" role="img"><rect x="36" y="165" width="243" height="105" rx="12" fill="#ffffff"/><path d="M279 193h74l46 52v25H279z" fill="#e0efff"/><path d="M302 204h40l30 36h-70z" fill="#2d7bcb"/><path d="M38 166h242v-21H38z" fill="#a3d0ff"/><rect x="61" y="92" width="87" height="74" rx="5" fill="#fbd87b" stroke="#e6b856" stroke-width="3"/><rect x="153" y="112" width="98" height="54" rx="4" fill="#ffc46c"/><path d="M105 92v74M202 112v54" stroke="#e9aa4c" stroke-width="5"/><rect x="84" y="56" width="78" height="40" rx="5" fill="#ffc46c"/><path d="M122 56v40" stroke="#e9aa4c" stroke-width="5"/><rect x="63" y="260" width="35" height="8" rx="4" fill="#2d7bcb"/><circle cx="104" cy="270" r="29" fill="#17385d"/><circle cx="104" cy="270" r="13" fill="#f9fdff"/><circle cx="335" cy="270" r="29" fill="#17385d"/><circle cx="335" cy="270" r="13" fill="#f9fdff"/><path d="M24 270h22M375 270h24" stroke="white" stroke-width="9" stroke-linecap="round"/></svg>
+  </div><div class="hero-caption">🚚 Trasporto su misura</div></div></div></div>
+  <section id="servizi"><div class="container"><div class="section-heading"><span class="kicker">Cosa facciamo</span><h2>Un aiuto concreto per le piccole necessità</h2><p>Dagli oggetti da trasportare ai piccoli spazi da liberare: descrivici la tua richiesta e verificheremo insieme la fattibilità.</p></div><div class="cards">
+    <article class="card"><div class="card-icon" aria-hidden="true">📦</div><h3>Piccoli traslochi</h3><p>Scatole, effetti personali e piccoli mobili, per spostamenti che non richiedono un grande furgone.</p></article>
+    <article class="card"><div class="card-icon" aria-hidden="true">🚚</div><h3>Trasporto oggetti</h3><p>Un ritiro, una consegna o un oggetto da spostare? Indicaci misure, peso e località.</p></article>
+    <article class="card"><div class="card-icon" aria-hidden="true">🏠</div><h3>Piccoli sgomberi</h3><p>Aiuto per liberare cantine, ripostigli e piccoli spazi. Eventuali modalità di smaltimento da concordare.</p></article>
+  </div></div></section>
+  <section class="soft" id="come-funziona"><div class="container"><div class="section-heading"><span class="kicker">Semplice e veloce</span><h2>Come funziona</h2><p>Bastano poche informazioni per capire come aiutarti.</p></div><div class="steps">
+    <div class="step"><span class="num">1</span><h3>Descrivi il lavoro</h3><p>Che cosa devi spostare? Da dove a dove? Ci sono scale o ostacoli?</p></div>
+    <div class="step"><span class="num">2</span><h3>Valutiamo la richiesta</h3><p>Controlliamo ingombri, distanza e possibilità di eseguire il trasporto.</p></div>
+    <div class="step"><span class="num">3</span><h3>Ci organizziamo</h3><p>Concordiamo disponibilità, dettagli e prezzo prima di procedere.</p></div>
+  </div><div class="local-band" id="zona"><div><strong>📍 Operiamo a Genova e dintorni</strong><p>Partenza dalla zona di Sant'Olcese. Altre località da valutare in base alla richiesta.</p></div><a href="#preventivo" class="button button-blue">Chiedi disponibilità</a></div></div></section>
+  <section id="preventivo"><div class="container quote-layout"><div class="quote-aside"><span class="kicker">Contattaci</span><h2>Richiedi un preventivo senza impegno</h2><p>Descrivici il trasporto o lo sgombero. Puoi anche indicare una data e qualche misura approssimativa.</p><div class="tip"><strong>Come funziona questo modulo</strong><br>Il sito prepara un messaggio con tutti i dati. Puoi copiarlo e inviarlo tramite il canale di contatto dell'attività. Non vengono raccolti né salvati dati online.</div></div>
+  <div class="form-card"><h3>Parlaci della tua richiesta</h3><p class="form-intro">I campi con * sono obbligatori.</p><form id="quote-form"><div class="fields">
+    <label class="field">Nome *<input type="text" name="nome" placeholder="Il tuo nome" autocomplete="name" maxlength="80" required></label>
+    <label class="field">Recapito (telefono o email) *<input type="text" name="recapito" placeholder="Come ricontattarti" maxlength="120" required></label>
+    <label class="field full">Tipo di servizio *<select name="servizio" required><option value="" selected disabled>Seleziona un servizio</option><option>Piccolo trasloco</option><option>Trasporto oggetti</option><option>Piccolo sgombero</option><option>Altro</option></select></label>
+    <label class="field">Partenza *<input type="text" name="partenza" placeholder="Es. Pontedecimo" maxlength="120" required></label>
+    <label class="field">Destinazione<input type="text" name="destinazione" placeholder="Es. Serra Riccò" maxlength="120"></label>
+    <label class="field full">Quando ti servirebbe?<input type="text" name="data" placeholder="Es. Sabato mattina, data da concordare…" maxlength="120"></label>
+    <label class="field full">Descrivi gli oggetti e il lavoro *<textarea name="dettagli" placeholder="Che cosa devi trasportare? Dimensioni approssimative, piano, ascensore, altri dettagli utili…" maxlength="2000" required></textarea></label>
+  </div><p class="form-help">Il pulsante qui sotto genera il testo della richiesta sul tuo dispositivo. Non invia il modulo a un server.</p><div class="actions"><button type="submit" class="button button-blue">Prepara il messaggio →</button><button type="button" id="copy-button" class="button button-blue" hidden>Copia il messaggio</button></div><div class="feedback" id="feedback" role="status" aria-live="polite"></div><div class="preview" id="preview"><strong>Messaggio pronto da inviare</strong><pre id="message-text"></pre></div></form></div></div></section>
+</main>
+<footer class="footer"><div class="container footer-line"><div><strong>Sgomberi & Piccoli Traslochi</strong><p>Genova e dintorni · Piccoli trasporti e sgomberi</p><small>Servizi soggetti a verifica di fattibilità e disponibilità.</small></div><a href="#inizio">Torna su ↑</a></div></footer>
+<script>
+  (function(){
+    'use strict';
+    const form=document.getElementById('quote-form');
+    const copyButton=document.getElementById('copy-button');
+    const preview=document.getElementById('preview');
+    const messageText=document.getElementById('message-text');
+    const feedback=document.getElementById('feedback');
+    let message='';
+    form.addEventListener('submit',function(event){
+      event.preventDefault();
+      if(!form.reportValidity())return;
+      const data=new FormData(form);
+      const get=(name)=>String(data.get(name)||'').trim()||'Non indicato';
+      message=[
+        'Buongiorno, vorrei richiedere un preventivo per Sgomberi & Piccoli Traslochi.',
+        '',
+        'Nome: '+get('nome'),
+        'Recapito: '+get('recapito'),
+        'Servizio: '+get('servizio'),
+        'Partenza: '+get('partenza'),
+        'Destinazione: '+get('destinazione'),
+        'Quando: '+get('data'),
+        'Dettagli: '+get('dettagli'),
+        '',
+        'Grazie!'
+      ].join('\n');
+      messageText.textContent=message;
+      preview.classList.add('visible');
+      copyButton.hidden=false;
+      feedback.textContent='Messaggio preparato! Copialo e invialo tramite il contatto dell’attività.';
+      preview.scrollIntoView({behavior:'smooth',block:'nearest'});
+    });
+    copyButton.addEventListener('click',async function(){
+      try{
+        if(navigator.clipboard&&window.isSecureContext){await navigator.clipboard.writeText(message)}
+        else{const area=document.createElement('textarea');area.value=message;area.style.position='fixed';area.style.opacity='0';document.body.appendChild(area);area.select();const success=document.execCommand('copy');area.remove();if(!success)throw new Error('Copia non supportata')}
+        feedback.textContent='Testo copiato! Ora puoi incollarlo in un messaggio.';
+      }catch(error){feedback.textContent='Seleziona e copia manualmente il testo mostrato qui sotto.'}
+    });
+  })();
+</script>
+</body>
+</html>
